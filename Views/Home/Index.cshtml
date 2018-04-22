@@ -1,0 +1,24 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<StripeSettings> Stripe
+
+<form action="/Home/Transact" method="POST">
+
+    <br />
+    <fieldset>
+        <legend>Product Details</legend>
+        <article>
+            <label>Product :</label><input type="text" value="Apple" readonly="readonly" />
+        </article>
+        <article>
+            <label>Amount: $  </label><input type="text" value="5" readonly="readonly" />
+        </article>
+    </fieldset>
+    
+    <script src="//checkout.stripe.com/v2/checkout.js"
+            class="stripe-button"
+            data-key="@Stripe.Value.PublishableKey"
+            data-locale="auto"
+            data-description="Stripe.net Online payment service"
+            data-amount="500">
+    </script>
+</form>
