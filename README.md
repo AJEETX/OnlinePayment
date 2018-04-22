@@ -1,7 +1,7 @@
 # Online payment system
 
 <!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/kxnw4lb014i2yvlf?svg=true)](https://ci.appveyor.com/project/AJEETX/onlinepayment)
+[![Build status](https://ci.appveyor.com/api/projects/status/0wna71fk8duk6o2o/branch/master?svg=true)](https://ci.appveyor.com/project/AJEETX/onlinepayment/branch/master)
 
 ---------------------------------------
 
