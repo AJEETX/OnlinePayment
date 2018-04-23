@@ -11,5 +11,10 @@ The easy way to pay online through .net application
 - card payment made via an external payment api 
 - confirmation email sent to customer, notification email sent to sales
 
-## License
-[Apache 2.0](LICENSE)
+### Support or Contact
+
+Having any trouble? Check out our [documentation](https://github.com/AJEETX/onlinepayment/blob/master/README.md) or [contact support](mailto:ajeetkumar@email.com) and we’ll help you sort it out.
+
+
+[![HitCount](http://hits.dwyl.io/ajeetx/onlinepayment/projects/1.svg)](http://hits.dwyl.io/ajeetx/onlinepayment/projects/1) | ![GitHub contributors](https://img.shields.io/github/contributors/ajeetx/onlinepayment.svg?style=plastic)|![license](https://img.shields.io/github/license/ajeetx/onlinepayment.svg?style=plastic)|
+ | --- | --- | ---|
