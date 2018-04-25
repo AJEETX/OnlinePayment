@@ -11,9 +11,14 @@ namespace stripe.Domain
     }
     public class DataStoreService : IDataStoreService
     {
+        IRepo _IRepo;
+        public DataStoreService(IRepo Repo)
+        {
+            _IRepo = Repo;
+        }
         public void Update(string email)
         {
-            // update DB
+            _IRepo.Update(email);
         }
     }
 }

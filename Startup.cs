@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using stripe.Domain;
+using Microsoft.EntityFrameworkCore;
 using Stripe;
+using stripe.Models;
 
 namespace stripe
 {
@@ -29,9 +31,13 @@ namespace stripe
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            var connection = Configuration.GetConnectionString("local");
             services.AddTransient<INotificationService, NotificationService>();
             services.AddTransient<IDataStoreService, DataStoreService>();
             services.AddTransient<IPaymentService, PaymentService>();
+            services.AddTransient<IRepo, Repo>();
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
+
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
         }
 
