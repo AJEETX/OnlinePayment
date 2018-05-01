@@ -12,7 +12,7 @@
 
 The easy way to pay online through .net application. 
 
-The repository consists of a project .net2.0 api. 
+The repository consists of a project .net2.0 mvc. 
 
 ## Features
 
