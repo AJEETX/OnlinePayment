@@ -4,7 +4,7 @@
 | --- | --- |
 
 
-[![.Net Framework](https://img.shields.io/badge/DotNet-2.0-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=1639) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/e.svg?style=plastic)| ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/onlinepayment.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/onlinepayment.svg) 
+[![.Net Framework](https://img.shields.io/badge/DotNet-2.0-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=1639) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/OnlinePayment.svg?style=plastic)| ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/onlinepayment.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/onlinepayment.svg) 
 | ---          | ---        | ---      | ---        | 
 
 ---------------------------------------
