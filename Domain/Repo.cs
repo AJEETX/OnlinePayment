@@ -8,6 +8,7 @@ namespace stripe.Domain
 {
     public interface IRepo
     {
+        void Create(PaymentStatus paymentStatus);
         void Update(string email);
     }
     public class Repo : IRepo
@@ -17,6 +18,13 @@ namespace stripe.Domain
         {
             _ctx = ctx;
         }
+
+        public void Create(PaymentStatus paymentStatus)
+        {
+            _ctx.Add<PaymentStatus>(paymentStatus);
+            _ctx.SaveChanges();
+        }
+
         public void Update(string email)
         {
             var status = _ctx.Set<PaymentStatus>().Where(p=> p.Email == email).FirstOrDefault();

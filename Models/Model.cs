@@ -11,7 +11,11 @@ namespace stripe.Models
         public string EmailTo { get; set; }
 
     }
-
+    public class CustomerData
+    {
+        public Stripe.StripeCustomer Customer { get; set; }
+        public Stripe.StripeCharge StripeCharge { get; set; }
+    }
     public class PaymentStatus
     {
         [Key]

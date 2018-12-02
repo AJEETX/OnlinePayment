@@ -36,7 +36,7 @@ namespace stripe
             services.AddTransient<IDataStoreService, DataStoreService>();
             services.AddTransient<IPaymentService, PaymentService>();
             services.AddTransient<IRepo, Repo>();
-            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase("TestDB"));
 
             services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
         }
