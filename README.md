@@ -1,11 +1,7 @@
 # Online payment ![GitHub release](https://img.shields.io/github/release/ajeetx/OnlinePayment.svg?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg?style=for-the-badge)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0wna71fk8duk6o2o/branch/master?svg=true)](https://ci.appveyor.com/project/AJEETX/onlinepayment/branch/master) | ![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/OnlinePayment.svg?style=plastic) |
-| --- | --- |
-
-
-[![.Net Framework](https://img.shields.io/badge/DotNet-2.0-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=1639) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/OnlinePayment.svg?style=plastic)| ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/onlinepayment.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/onlinepayment.svg) 
-| ---          | ---        | ---      | ---        | 
+[![Build status](https://ci.appveyor.com/api/projects/status/0wna71fk8duk6o2o/branch/master?svg=true)](https://ci.appveyor.com/project/AJEETX/onlinepayment/branch/master) | ![GitHub Release Date](https://img.shields.io/github/release-date/ajeetx/OnlinePayment.svg?style=plastic) |[![.Net Framework](https://img.shields.io/badge/DotNet-2.0-blue.svg?style=plastic)](https://www.microsoft.com/en-au/download/details.aspx?id=1639) | ![GitHub language count](https://img.shields.io/github/languages/count/ajeetx/OnlinePayment.svg?style=plastic)| ![GitHub top language](https://img.shields.io/github/languages/top/ajeetx/onlinepayment.svg) |![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ajeetx/onlinepayment.svg) 
+| ---          | ---        | ---      | ---        |  --- | --- |
 
 ---------------------------------------
 ## Introduction
